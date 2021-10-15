@@ -20,10 +20,10 @@
  */
 
 void DcMotor_init(void){
-	GPIO_setupPinDirection(PORTB_ID,PIN0_ID,PIN_OUTPUT);
-	GPIO_setupPinDirection(PORTB_ID,PIN1_ID,PIN_OUTPUT);
-	GPIO_writePin(PORTB_ID,PIN0_ID,LOGIC_LOW);
-	GPIO_writePin(PORTB_ID,PIN1_ID,LOGIC_LOW);
+	GPIO_setupPinDirection(DC_MOTOR_PORT ,DC_MOTOR_IN1_PIN ,PIN_OUTPUT);
+	GPIO_setupPinDirection(DC_MOTOR_PORT ,DC_MOTOR_IN2_PIN ,PIN_OUTPUT);
+	GPIO_writePin(DC_MOTOR_PORT ,DC_MOTOR_IN1_PIN ,LOGIC_LOW);
+	GPIO_writePin(DC_MOTOR_PORT ,DC_MOTOR_IN2_PIN ,LOGIC_LOW);
 }
 
 void DcMotor_Rotate(DcMotor_State state,uint8 speed){
