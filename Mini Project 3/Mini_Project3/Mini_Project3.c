@@ -4,7 +4,7 @@
  *
  * File Name: Mini_Project3.c
  *
- * Description: Main file of the project
+ * Description: Fan controller system
  *
  * Author: Hady Emad
  *
