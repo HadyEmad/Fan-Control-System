@@ -6,8 +6,6 @@
  *
  * Description: Commonly used Macros
  *
- * Author: Hady Emad
- *
  *******************************************************************************/
 
 #ifndef COMMON_MACROS
