@@ -6,8 +6,6 @@
  *
  * Description: Header file for the AVR GPIO driver
  *
- * Author: Hady Emad
- *
  *******************************************************************************/
 
 #ifndef GPIO_H_
